@@ -1,0 +1,42 @@
+/* Оновлення стилів для кнопок */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Стилі для центрування контенту */
+.container {
+    margin-top: 50px;
+}
+
+/* Медіа-запит для адаптивного відображення */
+@media (max-width: 768px) {
+    .btn {
+        margin-top: 10px;
+    }
+}
